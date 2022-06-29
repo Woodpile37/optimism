@@ -42,10 +42,10 @@ task('rollup-config', 'create a genesis config')
       l1_chain_id: await getChainId(l1),
       l2_chain_id: await getChainId(l2),
 
-      p2p_sequencer_address: '0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc',
-      fee_recipient_address: '0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266',
+      p2p_sequencer_address: deployConfig.p2pSequencerADdress,
+      fee_recipient_address: deployConfig.optimismL2FeeRecipient,
       batch_inbox_address: '0xff00000000000000000000000000000000000002',
-      batch_sender_address: '0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC',
+      batch_sender_address: deployConfig.batchSenderAddress,
       deposit_contract_address: portal.address,
     }
 

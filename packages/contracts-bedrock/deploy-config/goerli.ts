@@ -31,15 +31,19 @@ const config = {
 
   genesisBlockChainid: 111,
   fundDevAccounts: true,
-  optimsismBaseFeeRecipient: '0x3a2baA0160275024A50C1be1FC677375E7DB4Bd7',
+  optimismBaseFeeRecipient: '0x3a2baA0160275024A50C1be1FC677375E7DB4Bd7',
   optimismL1FeeRecipient: '0x88BCa4Af3d950625752867f826E073E337076581',
+  optimismL2FeeRecipient: '0x7C97EEd527B38928E16cEe057978a1eda927a8c1',
+  p2pSequencerAddress: '0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc',
 
   deploymentWaitConfirmations: 1,
 
   maxSequencerDrift: 10,
   sequencerWindowSize: 7200,
+  channelTimeout: 120,
 
   ownerAddress: '0x3CE0f9784a5973d82560Ff227254FBC27707985f',
+  batchSenderAddress: '0x09d7EfE73682b8F3D5BC4405284e3Fd13ff362DC',
 }
 
 export default config
