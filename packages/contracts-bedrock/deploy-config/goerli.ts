@@ -1,13 +1,16 @@
 import { ethers } from 'ethers'
 
+const sequencerAddress = '0x097355Eb2dc107409AD25112448B0d380E91B9a5'
+
+const startingTimestamp = 1656550636
 const config = {
   submissionInterval: 6,
   genesisOutput: ethers.constants.HashZero,
   historicalBlocks: 0,
   startingBlockNumber: 0,
   l2BlockTime: 2,
-  startingTimestamp: 1656441168,
-  sequencerAddress: '0xCBABF46d40982B4530c0EAc9889f6e44e17f0383',
+  startingTimestamp,
+  sequencerAddress,
 
   l2CrossDomainMessengerOwner: ethers.constants.AddressZero,
   gasPriceOracleOwner: ethers.constants.AddressZero,
@@ -24,7 +27,7 @@ const config = {
   proxyAdmin: '0x62790eFcB3a5f3A5D398F95B47930A9Addd83807',
   genesisBlockExtradata: ethers.utils.hexConcat([
     ethers.constants.HashZero,
-    '0xCBABF46d40982B4530c0EAc9889f6e44e17f0383',
+    sequencerAddress,
     ethers.utils.hexZeroPad('0x', 65),
   ]),
   genesisBlockGasLimit: ethers.BigNumber.from(15000000).toHexString(),
@@ -39,11 +42,11 @@ const config = {
   deploymentWaitConfirmations: 1,
 
   maxSequencerDrift: 10,
-  sequencerWindowSize: 7200,
-  channelTimeout: 120,
+  sequencerWindowSize: 240,
+  channelTimeout: 240,
 
   ownerAddress: '0x3CE0f9784a5973d82560Ff227254FBC27707985f',
-  batchSenderAddress: '0x09d7EfE73682b8F3D5BC4405284e3Fd13ff362DC',
+  batchSenderAddress: '0xBF252F2724daD2cD109dB5BB8620b5601F2783Db'
 }
 
 export default config
