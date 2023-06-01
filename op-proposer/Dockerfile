@@ -22,7 +22,7 @@ ARG TARGETOS TARGETARCH
 
 RUN make op-proposer VERSION="$VERSION" GOOS=$TARGETOS GOARCH=$TARGETARCH
 
-FROM alpine:3.16
+FROM alpine:3
 
 COPY --from=builder /app/op-proposer/bin/op-proposer /usr/local/bin
 
