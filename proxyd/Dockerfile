@@ -12,7 +12,7 @@ WORKDIR /app
 
 RUN make proxyd
 
-FROM alpine:3.16
+FROM alpine:3
 
 COPY ./proxyd/entrypoint.sh /bin/entrypoint.sh
 
