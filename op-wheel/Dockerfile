@@ -14,7 +14,7 @@ WORKDIR /app/op-wheel
 
 RUN go build -o op-wheel ./cmd/main.go
 
-FROM alpine:3.16
+FROM alpine:3
 
 COPY --from=builder /app/op-wheel/op-wheel /usr/local/bin
 
