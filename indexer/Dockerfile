@@ -11,7 +11,7 @@ COPY ./indexer/go.sum /go/indexer/go.sum
 WORKDIR /go/indexer
 RUN make
 
-FROM alpine:3.15
+FROM alpine:3
 
 COPY --from=builder /go/indexer/indexer /usr/local/bin
 
