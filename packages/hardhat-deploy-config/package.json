@@ -34,6 +34,6 @@
   "devDependencies": {
     "ethers": "^5.7.0",
     "ts-node": "^10.9.1",
-    "hardhat": "^2.9.6"
+    "hardhat": "^2.10.0"
   }
 }
