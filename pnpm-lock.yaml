@@ -3364,7 +3364,7 @@ packages:
     resolution: {integrity: sha512-bcKpo1oj54hGholplGLpqPHRbIsnbixFtc06nwuNM5/dwSXOq/AAYoIBRsBmnZJSdfeNW5rnff7NTAz3ZCqR9Q==}
     dependencies:
       '@noble/curves': 1.0.0
-      '@noble/hashes': 1.3.1
+      '@noble/hashes': 1.3.2
       '@scure/base': 1.1.1
 
   /@scure/bip32@1.3.1:
@@ -3384,7 +3384,7 @@ packages:
   /@scure/bip39@1.2.0:
     resolution: {integrity: sha512-SX/uKq52cuxm4YFXWFaVByaSHJh2w3BnokVSeUJVCv6K7WulT9u2BuNRBhuFl8vAuYnzx9bEu9WgpcNYTrYieg==}
     dependencies:
-      '@noble/hashes': 1.3.1
+      '@noble/hashes': 1.3.2
       '@scure/base': 1.1.1
 
   /@scure/bip39@1.2.1:
@@ -16655,13 +16655,13 @@ packages:
     resolution: {integrity: sha512-fVGmPInWNlT/lGj1aKDmmSDIqYO5iwVlZ3NdD4q/u/i9j8/o7a8S0jz8Js8oS/fqoBqF25WSJ8il2KKdSDGzXw==}
     engines: {node: '>=14', npm: '>=6.12.0'}
     dependencies:
-      web3-errors: 1.1.0
+      web3-errors: 1.1.1
       web3-eth-iban: 4.0.4
       web3-providers-http: 4.0.4
       web3-providers-ws: 4.0.4
-      web3-types: 1.1.0
-      web3-utils: 4.0.4
-      web3-validator: 2.0.0
+      web3-types: 1.1.1
+      web3-utils: 4.0.5
+      web3-validator: 2.0.1
     optionalDependencies:
       web3-providers-ipc: 4.0.5
     transitivePeerDependencies:
@@ -16674,7 +16674,7 @@ packages:
     resolution: {integrity: sha512-XKkq4uLp/I75qid+/eXjc/veZywmcmsYy1yNZHePIS2riBcqTGKrdKiplyNCoVwY9OGWlKv9NpxZBd32k8a9mg==}
     engines: {node: '>=14', npm: '>=6.12.0'}
     dependencies:
-      web3-types: 1.1.0
+      web3-types: 1.1.1
     dev: false
 
   /web3-errors@1.1.1:
@@ -16684,7 +16684,6 @@ packages:
     dependencies:
       web3-types: 1.1.1
     dev: false
-    optional: true
 
   /web3-eth-abi@4.1.0:
     resolution: {integrity: sha512-qd+zCGKi2YsL2KkbM5M8Qztles/WPOvFpw6Lg3a904DRIVxkIvWdQfoK0JbA6Vbt8DSVKCc4rpZ15D6I/wfBKQ==}
@@ -16692,9 +16691,9 @@ packages:
     dependencies:
       '@ethersproject/abi': 5.7.0
       '@ethersproject/bignumber': 5.7.0
-      web3-errors: 1.1.0
-      web3-types: 1.1.0
-      web3-utils: 4.0.4
+      web3-errors: 1.1.1
+      web3-types: 1.1.1
+      web3-utils: 4.0.5
     dev: false
 
   /web3-eth-accounts@4.0.3:
@@ -16717,10 +16716,10 @@ packages:
       '@ethereumjs/rlp': 4.0.1
       crc-32: 1.2.2
       ethereum-cryptography: 2.1.2
-      web3-errors: 1.1.0
-      web3-types: 1.1.0
-      web3-utils: 4.0.4
-      web3-validator: 2.0.0
+      web3-errors: 1.1.1
+      web3-types: 1.1.1
+      web3-utils: 4.0.5
+      web3-validator: 2.0.1
     dev: false
 
   /web3-eth-contract@4.0.4:
@@ -16728,12 +16727,12 @@ packages:
     engines: {node: '>=14', npm: '>=6.12.0'}
     dependencies:
       web3-core: 4.1.0
-      web3-errors: 1.1.0
+      web3-errors: 1.1.1
       web3-eth: 4.1.0
       web3-eth-abi: 4.1.0
-      web3-types: 1.1.0
-      web3-utils: 4.0.4
-      web3-validator: 2.0.0
+      web3-types: 1.1.1
+      web3-utils: 4.0.5
+      web3-validator: 2.0.1
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -16746,13 +16745,13 @@ packages:
     dependencies:
       '@adraffy/ens-normalize': 1.9.0
       web3-core: 4.1.0
-      web3-errors: 1.1.0
+      web3-errors: 1.1.1
       web3-eth: 4.1.0
       web3-eth-contract: 4.0.4
       web3-net: 4.0.4
-      web3-types: 1.1.0
-      web3-utils: 4.0.4
-      web3-validator: 2.0.0
+      web3-types: 1.1.1
+      web3-utils: 4.0.5
+      web3-validator: 2.0.1
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -16763,10 +16762,10 @@ packages:
     resolution: {integrity: sha512-ukX2K45Hdn+sVdCqNzSJ1ztzouy/4V88vn4M6gCnpw7cc39uDprSmoMi8LEVEJbJM9BqeFN3FXaDQvZJIsv26A==}
     engines: {node: '>=14', npm: '>=6.12.0'}
     dependencies:
-      web3-errors: 1.1.0
-      web3-types: 1.1.0
-      web3-utils: 4.0.4
-      web3-validator: 2.0.0
+      web3-errors: 1.1.1
+      web3-types: 1.1.1
+      web3-utils: 4.0.5
+      web3-validator: 2.0.1
     dev: false
 
   /web3-eth-personal@4.0.4:
@@ -16776,9 +16775,9 @@ packages:
       web3-core: 4.1.0
       web3-eth: 4.1.0
       web3-rpc-methods: 1.1.0
-      web3-types: 1.1.0
-      web3-utils: 4.0.4
-      web3-validator: 2.0.0
+      web3-types: 1.1.1
+      web3-utils: 4.0.5
+      web3-validator: 2.0.1
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -16812,15 +16811,15 @@ packages:
     dependencies:
       setimmediate: 1.0.5
       web3-core: 4.1.0
-      web3-errors: 1.1.0
+      web3-errors: 1.1.1
       web3-eth-abi: 4.1.0
       web3-eth-accounts: 4.0.4
       web3-net: 4.0.4
       web3-providers-ws: 4.0.4
       web3-rpc-methods: 1.1.0
-      web3-types: 1.1.0
-      web3-utils: 4.0.4
-      web3-validator: 2.0.0
+      web3-types: 1.1.1
+      web3-utils: 4.0.5
+      web3-validator: 2.0.1
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -16833,8 +16832,8 @@ packages:
     dependencies:
       web3-core: 4.1.0
       web3-rpc-methods: 1.1.0
-      web3-types: 1.1.0
-      web3-utils: 4.0.4
+      web3-types: 1.1.1
+      web3-utils: 4.0.5
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -16846,9 +16845,9 @@ packages:
     engines: {node: '>=14', npm: '>=6.12.0'}
     dependencies:
       cross-fetch: 3.1.8
-      web3-errors: 1.1.0
-      web3-types: 1.1.0
-      web3-utils: 4.0.4
+      web3-errors: 1.1.1
+      web3-types: 1.1.1
+      web3-utils: 4.0.5
     transitivePeerDependencies:
       - encoding
     dev: false
@@ -16870,9 +16869,9 @@ packages:
     dependencies:
       '@types/ws': 8.5.3
       isomorphic-ws: 5.0.0(ws@8.13.0)
-      web3-errors: 1.1.0
-      web3-types: 1.1.0
-      web3-utils: 4.0.4
+      web3-errors: 1.1.1
+      web3-types: 1.1.1
+      web3-utils: 4.0.5
       ws: 8.13.0(bufferutil@4.0.7)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
       - bufferutil
@@ -16884,8 +16883,8 @@ packages:
     engines: {node: '>=14', npm: '>=6.12.0'}
     dependencies:
       web3-core: 4.1.0
-      web3-types: 1.1.0
-      web3-validator: 2.0.0
+      web3-types: 1.1.1
+      web3-validator: 2.0.1
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -16902,7 +16901,6 @@ packages:
     engines: {node: '>=14', npm: '>=6.12.0'}
     requiresBuild: true
     dev: false
-    optional: true
 
   /web3-utils@1.10.1:
     resolution: {integrity: sha512-r6iUUw/uMnNcWXjhRv33Nyrhxq3VGOPBXeSzxhOXIci4SvC/LPTpROY0uTrMX7ztKyODYrHp8WhTkEf+ZnHssw==}
@@ -16922,9 +16920,9 @@ packages:
     engines: {node: '>=14', npm: '>=6.12.0'}
     dependencies:
       ethereum-cryptography: 2.1.2
-      web3-errors: 1.1.0
-      web3-types: 1.1.0
-      web3-validator: 2.0.0
+      web3-errors: 1.1.1
+      web3-types: 1.1.1
+      web3-validator: 2.0.1
     dev: false
 
   /web3-utils@4.0.5:
@@ -16937,7 +16935,6 @@ packages:
       web3-types: 1.1.1
       web3-validator: 2.0.1
     dev: false
-    optional: true
 
   /web3-validator@1.0.2:
     resolution: {integrity: sha512-orx1CQAEnwJUnl/8iF2II2zSA4wiooNJvFmVE0Dbmt/kE370SugIDViQP76snhxtouG2AXzz4GyKbPCMlLGh/A==}
@@ -16946,19 +16943,8 @@ packages:
       ethereum-cryptography: 2.1.2
       is-my-json-valid: 2.20.6
       util: 0.12.5
-      web3-errors: 1.1.0
-      web3-types: 1.1.0
-    dev: false
-
-  /web3-validator@2.0.0:
-    resolution: {integrity: sha512-JGOuJFX4mjBMaR7e0VI1xrBXDHz1Z6+824eJiJZFaGOt1kjMsrbYX/z4cHJ8rgv+DdZqIFjOlxsAVJV5T8ODXQ==}
-    engines: {node: '>=14', npm: '>=6.12.0'}
-    dependencies:
-      ethereum-cryptography: 2.1.2
-      util: 0.12.5
-      web3-errors: 1.1.0
-      web3-types: 1.1.0
-      zod: 3.22.1
+      web3-errors: 1.1.1
+      web3-types: 1.1.1
     dev: false
 
   /web3-validator@2.0.1:
@@ -16972,7 +16958,6 @@ packages:
       web3-types: 1.1.1
       zod: 3.22.1
     dev: false
-    optional: true
 
   /web3@4.0.3:
     resolution: {integrity: sha512-rUMxui5f52yPWjiMRQV6xqIrTQSovYM2CNhl57y+xj/fGXNLbI1D5FsLPnUMZjMaFHJBTteaBxq/sTEaw/1jNA==}
