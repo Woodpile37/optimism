@@ -16733,15 +16733,6 @@ packages:
       web3-types: 1.1.1
     dev: false
 
-  /web3-errors@1.1.2:
-    resolution: {integrity: sha512-qlyuV5r6MzjLasIalVWBIIfW4Y7hBX2bZv8TRnXvI1EjiZ36zIFKgE9RF+/iRBjXmOsvIUQQ2Z9gMvYGfOwUwQ==}
-    engines: {node: '>=14', npm: '>=6.12.0'}
-    requiresBuild: true
-    dependencies:
-      web3-types: 1.2.0
-    dev: false
-    optional: true
-
   /web3-eth-abi@4.1.0:
     resolution: {integrity: sha512-qd+zCGKi2YsL2KkbM5M8Qztles/WPOvFpw6Lg3a904DRIVxkIvWdQfoK0JbA6Vbt8DSVKCc4rpZ15D6I/wfBKQ==}
     engines: {node: '>=14', npm: '>=6.12.0'}
@@ -16849,7 +16840,7 @@ packages:
       web3-core: 4.1.0
       web3-errors: 1.1.0
       web3-eth-abi: 4.1.0
-      web3-eth-accounts: 4.0.3
+      web3-eth-accounts: 4.0.4
       web3-net: 4.0.4
       web3-providers-ws: 4.0.4
       web3-rpc-methods: 1.1.0
@@ -16958,13 +16949,6 @@ packages:
     engines: {node: '>=14', npm: '>=6.12.0'}
     dev: false
 
-  /web3-types@1.2.0:
-    resolution: {integrity: sha512-ljx8mrkrOI8fRqvgOdxfpKYoso6n7I8T9LsqXl+Mz2Db0L+2H15an0xgdoWYpKndTPiU2NKRWFiopYifBQzcxQ==}
-    engines: {node: '>=14', npm: '>=6.12.0'}
-    requiresBuild: true
-    dev: false
-    optional: true
-
   /web3-utils@1.10.1:
     resolution: {integrity: sha512-r6iUUw/uMnNcWXjhRv33Nyrhxq3VGOPBXeSzxhOXIci4SvC/LPTpROY0uTrMX7ztKyODYrHp8WhTkEf+ZnHssw==}
     engines: {node: '>=8.0.0'}
@@ -16998,18 +16982,6 @@ packages:
       web3-validator: 2.0.1
     dev: false
 
-  /web3-utils@4.0.6:
-    resolution: {integrity: sha512-nLVtMf9mWTX604XiQQkWZlHLCag9GdHfQtnGJDNaDssTLUx5SpOm1CjhKCHcVcAH/QazEsWcLqUAuyqwKST1kA==}
-    engines: {node: '>=14', npm: '>=6.12.0'}
-    requiresBuild: true
-    dependencies:
-      ethereum-cryptography: 2.1.2
-      web3-errors: 1.1.2
-      web3-types: 1.2.0
-      web3-validator: 2.0.2
-    dev: false
-    optional: true
-
   /web3-validator@1.0.2:
     resolution: {integrity: sha512-orx1CQAEnwJUnl/8iF2II2zSA4wiooNJvFmVE0Dbmt/kE370SugIDViQP76snhxtouG2AXzz4GyKbPCMlLGh/A==}
     engines: {node: '>=14', npm: '>=6.12.0'}
@@ -17021,21 +16993,9 @@ packages:
       web3-types: 1.1.1
     dev: false
 
-  /web3-validator@2.0.1:
-    resolution: {integrity: sha512-RIdZCNhceBEOQpmzcEk6K3qqLHRfDIMkg2PJe7yllpuEc0fa0cmUZgGUl1FEnioc5Rx9GBEE8eTllaneIAiiQQ==}
-    engines: {node: '>=14', npm: '>=6.12.0'}
-    dependencies:
-      ethereum-cryptography: 2.1.2
-      util: 0.12.5
-      web3-errors: 1.1.1
-      web3-types: 1.1.1
-      zod: 3.22.1
-    dev: false
-
   /web3-validator@2.0.2:
     resolution: {integrity: sha512-9sQ5owd2UldTsva3o3htj2fTPpbmUwb4TfBXhjIkew8FyT0ss3DPI+j3p6XrfdxIVBEQ5r17YUakElDV99aW+A==}
     engines: {node: '>=14', npm: '>=6.12.0'}
-    requiresBuild: true
     dependencies:
       ethereum-cryptography: 2.1.2
       util: 0.12.5
@@ -17043,7 +17003,6 @@ packages:
       web3-types: 1.2.0
       zod: 3.22.1
     dev: false
-    optional: true
 
   /web3@4.0.3:
     resolution: {integrity: sha512-rUMxui5f52yPWjiMRQV6xqIrTQSovYM2CNhl57y+xj/fGXNLbI1D5FsLPnUMZjMaFHJBTteaBxq/sTEaw/1jNA==}
@@ -17053,7 +17012,7 @@ packages:
       web3-errors: 1.1.0
       web3-eth: 4.1.0
       web3-eth-abi: 4.1.0
-      web3-eth-accounts: 4.0.3
+      web3-eth-accounts: 4.0.4
       web3-eth-contract: 4.0.4
       web3-eth-ens: 4.0.4
       web3-eth-iban: 4.0.4
