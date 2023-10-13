@@ -292,11 +292,11 @@ importers:
         specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
       viem:
-        specifier: ^1.16.4
-        version: 1.16.4(typescript@5.2.2)(zod@3.22.4)
+        specifier: ^1.16.5
+        version: 1.16.5(typescript@5.2.2)(zod@3.22.4)
       wagmi:
         specifier: '>1.0.0'
-        version: 1.0.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)(viem@1.16.4)
+        version: 1.0.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)(viem@1.16.5)
     devDependencies:
       '@eth-optimism/contracts-bedrock':
         specifier: workspace:*
@@ -318,7 +318,7 @@ importers:
         version: 1.5.2(@wagmi/core@1.4.3)(typescript@5.2.2)(wagmi@1.0.1)
       '@wagmi/core':
         specifier: ^1.4.3
-        version: 1.4.3(react@18.2.0)(typescript@5.2.2)(viem@1.16.4)
+        version: 1.4.3(react@18.2.0)(typescript@5.2.2)(viem@1.16.5)
       abitype:
         specifier: ^0.9.9
         version: 0.9.9(typescript@5.2.2)
@@ -432,8 +432,8 @@ importers:
         specifier: ^5.2.2
         version: 5.2.2
       viem:
-        specifier: ^1.16.4
-        version: 1.16.4(typescript@5.2.2)(zod@3.22.4)
+        specifier: ^1.16.5
+        version: 1.16.5(typescript@5.2.2)(zod@3.22.4)
       vite:
         specifier: ^4.4.10
         version: 4.4.10(@types/node@20.7.2)
@@ -523,8 +523,8 @@ importers:
         specifier: ^5.2.2
         version: 5.2.2
       viem:
-        specifier: ^1.16.4
-        version: 1.16.4(typescript@5.2.2)(zod@3.22.4)
+        specifier: ^1.16.5
+        version: 1.16.5(typescript@5.2.2)(zod@3.22.4)
       vitest:
         specifier: ^0.34.2
         version: 0.34.2(jsdom@22.1.0)
@@ -541,7 +541,7 @@ importers:
         specifier: '>= 4.0.3 < 5.x'
         version: 4.0.3
       web3-eth:
-        specifier: ^4.2.0
+        specifier: ^4.0.3
         version: 4.2.0
       web3-eth-accounts:
         specifier: ^4.0.6
@@ -563,8 +563,8 @@ importers:
         specifier: ^5.2.2
         version: 5.2.2
       viem:
-        specifier: ^1.16.4
-        version: 1.16.4(typescript@5.2.2)(zod@3.22.4)
+        specifier: ^1.16.5
+        version: 1.16.5(typescript@5.2.2)(zod@3.22.4)
       vite:
         specifier: ^4.4.10
         version: 4.4.10(@types/node@20.7.2)
@@ -3180,7 +3180,7 @@ packages:
     resolution: {integrity: sha512-gYw0ki/EAuV1oSyMxpqandHjnthZjYYy+YWpTAzf8BqfXM3ItcZLpjxfg+3+mXW8HIO+3jw6T9iiqEXsqHaMMw==}
     dependencies:
       '@safe-global/safe-gateway-typescript-sdk': 3.7.3
-      viem: 1.16.4(typescript@5.2.2)(zod@3.22.4)
+      viem: 1.16.5(typescript@5.2.2)(zod@3.22.4)
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -4175,11 +4175,6 @@ packages:
       '@types/node': 20.7.2
     dev: false
 
-  /@types/ws@8.5.5:
-    resolution: {integrity: sha512-lwhs8hktwxSjf9UaZ9tG5M03PGogvFaH8gUgLNbN9HKIg0dvv6q+gkSuJ8HN4/VbyxkuLzCjlN7GquQ0gUJfIg==}
-    dependencies:
-      '@types/node': 20.7.2
-
   /@typescript-eslint/eslint-plugin@6.7.5(@typescript-eslint/parser@6.4.0)(eslint@8.50.0)(typescript@5.2.2):
     resolution: {integrity: sha512-JhtAwTRhOUcP96D0Y6KYnwig/MRQbOoLGXTON2+LlyB/N35SP9j1boai2zzwXb7ypKELXMx3DVk9UTaEq1vHEw==}
     engines: {node: ^16.0.0 || >=18.0.0}
@@ -4671,7 +4666,7 @@ packages:
       wagmi:
         optional: true
     dependencies:
-      '@wagmi/core': 1.4.3(react@18.2.0)(typescript@5.2.2)(viem@1.16.4)
+      '@wagmi/core': 1.4.3(react@18.2.0)(typescript@5.2.2)(viem@1.16.5)
       abitype: 0.8.7(typescript@5.2.2)(zod@3.22.3)
       abort-controller: 3.0.0
       bundle-require: 3.1.2(esbuild@0.16.17)
@@ -4693,15 +4688,15 @@ packages:
       picocolors: 1.0.0
       prettier: 2.8.8
       typescript: 5.2.2
-      viem: 1.16.4(typescript@5.2.2)(zod@3.22.3)
-      wagmi: 1.0.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)(viem@1.16.4)
+      viem: 1.16.5(typescript@5.2.2)(zod@3.22.3)
+      wagmi: 1.0.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)(viem@1.16.5)
       zod: 3.22.3
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
     dev: true
 
-  /@wagmi/connectors@1.0.1(@wagmi/chains@0.2.22)(react@18.2.0)(typescript@5.2.2)(viem@1.16.4):
+  /@wagmi/connectors@1.0.1(@wagmi/chains@0.2.22)(react@18.2.0)(typescript@5.2.2)(viem@1.16.5):
     resolution: {integrity: sha512-fl01vym19DE1uoE+MlASw5zo3Orr/YXlJRjOKLaKYtV+Q7jOLY4TwHgq7sEMs+JYOvFICFBEAlWNNxidr51AqQ==}
     peerDependencies:
       '@wagmi/chains': '>=0.2.0'
@@ -4724,7 +4719,7 @@ packages:
       abitype: 0.8.1(typescript@5.2.2)
       eventemitter3: 4.0.7
       typescript: 5.2.2
-      viem: 1.16.4(typescript@5.2.2)(zod@3.22.4)
+      viem: 1.16.5(typescript@5.2.2)(zod@3.22.4)
     transitivePeerDependencies:
       - '@react-native-async-storage/async-storage'
       - bufferutil
@@ -4736,7 +4731,7 @@ packages:
       - utf-8-validate
       - zod
 
-  /@wagmi/connectors@3.1.2(react@18.2.0)(typescript@5.2.2)(viem@1.16.4):
+  /@wagmi/connectors@3.1.2(react@18.2.0)(typescript@5.2.2)(viem@1.16.5):
     resolution: {integrity: sha512-IlLKErqCzQRBUcCvXGPowcczbWcvJtEG006gPsAoePNJEXCHEWoKASghgu+L/bqD7006Z6mW6zlTNjcSQJvFAg==}
     peerDependencies:
       typescript: '>=5.0.4'
@@ -4756,7 +4751,7 @@ packages:
       abitype: 0.8.7(typescript@5.2.2)(zod@3.22.3)
       eventemitter3: 4.0.7
       typescript: 5.2.2
-      viem: 1.16.4(typescript@5.2.2)(zod@3.22.4)
+      viem: 1.16.5(typescript@5.2.2)(zod@3.22.4)
     transitivePeerDependencies:
       - '@react-native-async-storage/async-storage'
       - '@types/react'
@@ -4769,7 +4764,7 @@ packages:
       - zod
     dev: true
 
-  /@wagmi/core@1.0.1(react@18.2.0)(typescript@5.2.2)(viem@1.16.4):
+  /@wagmi/core@1.0.1(react@18.2.0)(typescript@5.2.2)(viem@1.16.5):
     resolution: {integrity: sha512-Zzg4Ob92QMF9NsC+z5/8JZjMn3NCCnwVWGJlv79qRX9mp5Ku40OzJNvqDnjcSGjshe6H0L/KtFZAqTlmu8lT7w==}
     peerDependencies:
       typescript: '>=4.9.4'
@@ -4779,11 +4774,11 @@ packages:
         optional: true
     dependencies:
       '@wagmi/chains': 0.2.22(typescript@5.2.2)
-      '@wagmi/connectors': 1.0.1(@wagmi/chains@0.2.22)(react@18.2.0)(typescript@5.2.2)(viem@1.16.4)
+      '@wagmi/connectors': 1.0.1(@wagmi/chains@0.2.22)(react@18.2.0)(typescript@5.2.2)(viem@1.16.5)
       abitype: 0.8.1(typescript@5.2.2)
       eventemitter3: 4.0.7
       typescript: 5.2.2
-      viem: 1.16.4(typescript@5.2.2)(zod@3.22.4)
+      viem: 1.16.5(typescript@5.2.2)(zod@3.22.4)
       zustand: 4.3.9(react@18.2.0)
     transitivePeerDependencies:
       - '@react-native-async-storage/async-storage'
@@ -4797,7 +4792,7 @@ packages:
       - utf-8-validate
       - zod
 
-  /@wagmi/core@1.4.3(react@18.2.0)(typescript@5.2.2)(viem@1.16.4):
+  /@wagmi/core@1.4.3(react@18.2.0)(typescript@5.2.2)(viem@1.16.5):
     resolution: {integrity: sha512-CIV9jwv5ue+WpqmA3FvwGa+23cppe7oIaz6TRnlGm0Hm0wDImSaQSWqcsFyOPvleD29oOIJ8e3KnHINEvI64AA==}
     peerDependencies:
       typescript: '>=5.0.4'
@@ -4806,11 +4801,11 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@wagmi/connectors': 3.1.2(react@18.2.0)(typescript@5.2.2)(viem@1.16.4)
+      '@wagmi/connectors': 3.1.2(react@18.2.0)(typescript@5.2.2)(viem@1.16.5)
       abitype: 0.8.7(typescript@5.2.2)(zod@3.22.3)
       eventemitter3: 4.0.7
       typescript: 5.2.2
-      viem: 1.16.4(typescript@5.2.2)(zod@3.22.4)
+      viem: 1.16.5(typescript@5.2.2)(zod@3.22.4)
       zustand: 4.3.9(react@18.2.0)
     transitivePeerDependencies:
       - '@react-native-async-storage/async-storage'
@@ -14329,8 +14324,8 @@ packages:
       vfile-message: 2.0.4
     dev: true
 
-  /viem@1.16.4(typescript@5.2.2)(zod@3.22.3):
-    resolution: {integrity: sha512-T9ziN3EERXz0BtQSS2VJM+P1EJ2W7K7PviobFrmvWCEYmNQ/vJDhfFqGjvq0ZL9LVz9HvevCbenEy8oIdMEZ+w==}
+  /viem@1.16.5(typescript@5.2.2)(zod@3.22.3):
+    resolution: {integrity: sha512-D8aE6cp/5w6PDtOOkJjkN+FtLyfsNWkfE78N4yTgCt4BG7KsBsePp4O68r1IaTVTVa41anebiZAy9kNEIwAXiw==}
     peerDependencies:
       typescript: '>=5.0.4'
     peerDependenciesMeta:
@@ -14352,8 +14347,8 @@ packages:
       - zod
     dev: true
 
-  /viem@1.16.4(typescript@5.2.2)(zod@3.22.4):
-    resolution: {integrity: sha512-T9ziN3EERXz0BtQSS2VJM+P1EJ2W7K7PviobFrmvWCEYmNQ/vJDhfFqGjvq0ZL9LVz9HvevCbenEy8oIdMEZ+w==}
+  /viem@1.16.5(typescript@5.2.2)(zod@3.22.4):
+    resolution: {integrity: sha512-D8aE6cp/5w6PDtOOkJjkN+FtLyfsNWkfE78N4yTgCt4BG7KsBsePp4O68r1IaTVTVa41anebiZAy9kNEIwAXiw==}
     peerDependencies:
       typescript: '>=5.0.4'
     peerDependenciesMeta:
@@ -14759,7 +14754,7 @@ packages:
       xml-name-validator: 4.0.0
     dev: true
 
-  /wagmi@1.0.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)(viem@1.16.4):
+  /wagmi@1.0.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)(viem@1.16.5):
     resolution: {integrity: sha512-+2UkZG9eA3tKqXj1wvlvI8mL0Bcff7Tf5CKfUOyQsdKcY+J5rfwYYya25G+jja57umpHFtfxRaL7xDkNjehrRg==}
     peerDependencies:
       react: '>=17.0.0'
@@ -14772,12 +14767,12 @@ packages:
       '@tanstack/query-sync-storage-persister': 4.29.25
       '@tanstack/react-query': 4.29.25(react-dom@18.2.0)(react@18.2.0)
       '@tanstack/react-query-persist-client': 4.29.25(@tanstack/react-query@4.29.25)
-      '@wagmi/core': 1.0.1(react@18.2.0)(typescript@5.2.2)(viem@1.16.4)
+      '@wagmi/core': 1.0.1(react@18.2.0)(typescript@5.2.2)(viem@1.16.5)
       abitype: 0.8.1(typescript@5.2.2)
       react: 18.2.0
       typescript: 5.2.2
       use-sync-external-store: 1.2.0(react@18.2.0)
-      viem: 1.16.4(typescript@5.2.2)(zod@3.22.4)
+      viem: 1.16.5(typescript@5.2.2)(zod@3.22.4)
     transitivePeerDependencies:
       - '@react-native-async-storage/async-storage'
       - bufferutil
@@ -14819,6 +14814,25 @@ packages:
       - utf-8-validate
     dev: false
 
+  /web3-core@4.2.0:
+    resolution: {integrity: sha512-pkZJx3HAY3b3CutaFarODFgK3TDvcXC4T0n8cpvwiZjDzakUUFAssVUDwrmFyCFKAo5kmfs6qWFW7BAZLJeBFA==}
+    engines: {node: '>=14', npm: '>=6.12.0'}
+    dependencies:
+      web3-errors: 1.1.2
+      web3-eth-iban: 4.0.6
+      web3-providers-http: 4.0.6
+      web3-providers-ws: 4.0.6
+      web3-types: 1.2.0
+      web3-utils: 4.0.6
+      web3-validator: 2.0.2
+    optionalDependencies:
+      web3-providers-ipc: 4.0.6
+    transitivePeerDependencies:
+      - bufferutil
+      - encoding
+      - utf-8-validate
+    dev: false
+
   /web3-errors@1.1.0:
     resolution: {integrity: sha512-XKkq4uLp/I75qid+/eXjc/veZywmcmsYy1yNZHePIS2riBcqTGKrdKiplyNCoVwY9OGWlKv9NpxZBd32k8a9mg==}
     engines: {node: '>=14', npm: '>=6.12.0'}
@@ -14835,6 +14849,17 @@ packages:
 
   /web3-eth-abi@4.1.0:
     resolution: {integrity: sha512-qd+zCGKi2YsL2KkbM5M8Qztles/WPOvFpw6Lg3a904DRIVxkIvWdQfoK0JbA6Vbt8DSVKCc4rpZ15D6I/wfBKQ==}
+    engines: {node: '>=14', npm: '>=6.12.0'}
+    dependencies:
+      '@ethersproject/abi': 5.7.0
+      '@ethersproject/bignumber': 5.7.0
+      web3-errors: 1.1.2
+      web3-types: 1.2.0
+      web3-utils: 4.0.6
+    dev: false
+
+  /web3-eth-abi@4.1.2:
+    resolution: {integrity: sha512-s8gvjUwzb2ZnAef0Jy68pjmeshYIKBoYlVj/1yuuFP9t3io3oQQIEyGlaCx7P4ifsZ186gMa4QjCCeIt7HYm7Q==}
     engines: {node: '>=14', npm: '>=6.12.0'}
     dependencies:
       '@ethersproject/abi': 5.7.0
@@ -14863,7 +14888,7 @@ packages:
     dependencies:
       web3-core: 4.1.0
       web3-errors: 1.1.2
-      web3-eth: 4.1.0
+      web3-eth: 4.2.0
       web3-eth-abi: 4.1.0
       web3-types: 1.2.0
       web3-utils: 4.0.6
@@ -14881,9 +14906,9 @@ packages:
       '@adraffy/ens-normalize': 1.9.4
       web3-core: 4.1.0
       web3-errors: 1.1.2
-      web3-eth: 4.1.0
+      web3-eth: 4.2.0
       web3-eth-contract: 4.0.4
-      web3-net: 4.0.4
+      web3-net: 4.0.6
       web3-types: 1.2.0
       web3-utils: 4.0.6
       web3-validator: 2.0.2
@@ -14903,12 +14928,22 @@ packages:
       web3-validator: 2.0.2
     dev: false
 
+  /web3-eth-iban@4.0.6:
+    resolution: {integrity: sha512-q47MbmoYWdfoylHlKZkZRHiPYeiFWqRiHou/wTYJEeZa2D3NG0wuPWz3jeQdZ5NzmS85yh+p2hxa54azVT8qmw==}
+    engines: {node: '>=14', npm: '>=6.12.0'}
+    dependencies:
+      web3-errors: 1.1.2
+      web3-types: 1.2.0
+      web3-utils: 4.0.6
+      web3-validator: 2.0.2
+    dev: false
+
   /web3-eth-personal@4.0.4:
     resolution: {integrity: sha512-rZksHMLC1z9frT7sI9+aq3KqfxfZeTW/N7GVCoYVMtVTaTLBDO4n4++0It1KWeSogGE11niBxSev7nHsOVRRRw==}
     engines: {node: '>=14', npm: '>=6.12.0'}
     dependencies:
       web3-core: 4.1.0
-      web3-eth: 4.1.0
+      web3-eth: 4.2.0
       web3-rpc-methods: 1.1.0
       web3-types: 1.2.0
       web3-utils: 4.0.6
@@ -14924,16 +14959,16 @@ packages:
     engines: {node: '>=14', npm: '>=6.12.0'}
     dependencies:
       setimmediate: 1.0.5
-      web3-core: 4.1.0
-      web3-errors: 1.1.0
-      web3-eth-abi: 4.1.0
+      web3-core: 4.2.0
+      web3-errors: 1.1.2
+      web3-eth-abi: 4.1.2
       web3-eth-accounts: 4.0.6
-      web3-net: 4.0.4
-      web3-providers-ws: 4.0.4
-      web3-rpc-methods: 1.1.0
-      web3-types: 1.1.0
-      web3-utils: 4.0.4
-      web3-validator: 1.0.2
+      web3-net: 4.0.6
+      web3-providers-ws: 4.0.6
+      web3-rpc-methods: 1.1.2
+      web3-types: 1.2.0
+      web3-utils: 4.0.6
+      web3-validator: 2.0.2
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -14965,8 +15000,8 @@ packages:
     resolution: {integrity: sha512-Th4AtgpBgMdt76PmYyNBQxwAd2hAR8hIjhU4xjhqk1JATlXpcfgzyhegeAsvnSht4tcLnVQt6SN4ZVccllpd4A==}
     engines: {node: '>=14', npm: '>=6.12.0'}
     dependencies:
-      web3-core: 4.1.0
-      web3-rpc-methods: 1.1.0
+      web3-core: 4.2.0
+      web3-rpc-methods: 1.1.2
       web3-types: 1.2.0
       web3-utils: 4.0.6
     transitivePeerDependencies:
@@ -14977,6 +15012,18 @@ packages:
 
   /web3-providers-http@4.0.4:
     resolution: {integrity: sha512-vybOsMlXW/sBp3mus6AKNvYobXPQx4F5K/1C2h8sBPszksXWdj7Wch/uDYSc+zYzc78yaByE0nxXmL6LfAJCKA==}
+    engines: {node: '>=14', npm: '>=6.12.0'}
+    dependencies:
+      cross-fetch: 3.1.8
+      web3-errors: 1.1.2
+      web3-types: 1.2.0
+      web3-utils: 4.0.6
+    transitivePeerDependencies:
+      - encoding
+    dev: false
+
+  /web3-providers-http@4.0.6:
+    resolution: {integrity: sha512-FnBw0X25Xu0FejOgY2Ra7WY4p3fSrHxZuQ5a4j0ytDCE+0wxKQN0BaLRC7+uigbVvwEziQwzrhe+tn8bYAQKXQ==}
     engines: {node: '>=14', npm: '>=6.12.0'}
     dependencies:
       cross-fetch: 3.1.8
@@ -15013,11 +15060,39 @@ packages:
       - utf-8-validate
     dev: false
 
+  /web3-providers-ws@4.0.6:
+    resolution: {integrity: sha512-0Q0SuKpr05gK+tUXdzPNmYlDV3exdqxnHx3f8p3cqz+v66J04EOT31bbETS0VcpDiQ9YaVS8FVSjT4PaseuNag==}
+    engines: {node: '>=14', npm: '>=6.12.0'}
+    dependencies:
+      '@types/ws': 8.5.3
+      isomorphic-ws: 5.0.0(ws@8.13.0)
+      web3-errors: 1.1.2
+      web3-types: 1.2.0
+      web3-utils: 4.0.6
+      ws: 8.13.0(bufferutil@4.0.7)(utf-8-validate@5.0.10)
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
+    dev: false
+
   /web3-rpc-methods@1.1.0:
     resolution: {integrity: sha512-4tYjn05NDZtHPpJz7dFfsdef+0mxM4NDva5S1Yqnxb3ar6ceIqiQuDRe2MB0Lg5gD3A93udrJ+Cu1EULPTS3qw==}
     engines: {node: '>=14', npm: '>=6.12.0'}
     dependencies:
       web3-core: 4.1.0
+      web3-types: 1.2.0
+      web3-validator: 2.0.2
+    transitivePeerDependencies:
+      - bufferutil
+      - encoding
+      - utf-8-validate
+    dev: false
+
+  /web3-rpc-methods@1.1.2:
+    resolution: {integrity: sha512-fzYp9eJyzq/UBzpP9kOQormelLfvl1kJnX5ucHv4T6kZaQfDuBt5XoYDtCDXSXVaz2MgTowsXwKEVAzN6h7+Ag==}
+    engines: {node: '>=14', npm: '>=6.12.0'}
+    dependencies:
+      web3-core: 4.2.0
       web3-types: 1.2.0
       web3-validator: 2.0.2
     transitivePeerDependencies:
