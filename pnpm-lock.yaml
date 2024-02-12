@@ -256,8 +256,8 @@ importers:
         specifier: ^7.0.5
         version: 7.0.5
       '@types/pino-multi-stream':
-        specifier: ^5.1.4
-        version: 5.1.4
+        specifier: ^5.1.6
+        version: 5.1.6
       chai:
         specifier: ^4.3.10
         version: 4.3.10
@@ -4001,8 +4001,8 @@ packages:
       '@types/node': 20.9.5
     dev: true
 
-  /@types/pino-multi-stream@5.1.4:
-    resolution: {integrity: sha512-+UrFCcIx4cUo473GwCt5/v8m0r+W08iuaphu8L5bx76zcShvQRWPtKkRxImUCLXW9bHpPFHAJZKANMP/vAbycA==}
+  /@types/pino-multi-stream@5.1.6:
+    resolution: {integrity: sha512-LEDs2CdCkFwu4zWPZonZdfKfrAyG3OVqxVvBluRwrPF21Xr9dSw1A3k1NHhSXoBFp91cOFv2T7aLUxP6IO6LUw==}
     dependencies:
       '@types/pino': 6.3.11
     dev: true
@@ -7994,6 +7994,7 @@ packages:
       is-hex-prefixed: 1.0.0
       strip-hex-prefix: 1.0.0
     dev: true
+    bundledDependencies: false
 
   /event-target-shim@5.0.1:
     resolution: {integrity: sha512-i/2XbnSz/uxRCU6+NdVJgKWDTM427+MqYbkQzD321DuCQJUqOuJKIA0IM2+W2xtYHdKOmZ4dR6fExsd4SXL+WQ==}
