@@ -320,8 +320,8 @@ importers:
         specifier: ^1.4.7
         version: 1.4.7(react@18.2.0)(typescript@5.2.2)(viem@1.19.7)
       abitype:
-        specifier: ^0.9.9
-        version: 0.9.9(typescript@5.2.2)
+        specifier: ^1.0.2
+        version: 1.0.2(typescript@5.2.2)
       glob:
         specifier: ^10.3.10
         version: 10.3.10
@@ -414,8 +414,8 @@ importers:
         specifier: ^0.34.6
         version: 0.34.6(vitest@0.34.2)
       abitype:
-        specifier: ^0.9.9
-        version: 0.9.9(typescript@5.2.2)
+        specifier: ^1.0.2
+        version: 1.0.2(typescript@5.2.2)
       isomorphic-fetch:
         specifier: ^3.0.0
         version: 3.0.0
@@ -5293,11 +5293,11 @@ packages:
       typescript: 5.2.2
       zod: 3.22.4
 
-  /abitype@0.9.9(typescript@5.2.2):
-    resolution: {integrity: sha512-rBModE9LGdPkV956XLnipCEQ0Z5SeqObjz60fD4RsAq9ky7Hih6fT5YQDM1eVy/NZJN1Z4wC7NFcdYKrd1+ffA==}
+  /abitype@1.0.2(typescript@5.2.2):
+    resolution: {integrity: sha512-aFt4k2H+eiAKy/zxtnORa9iIb10BMBeWL18l8v4+QuwYEBXPxxjSB1bFZCzQmKPoj8m7j68K705l3uY+E2gAjg==}
     peerDependencies:
       typescript: '>=5.0.4'
-      zod: ^3 >=3.19.1
+      zod: ^3 >=3.22.0
     peerDependenciesMeta:
       typescript:
         optional: true
@@ -8002,7 +8002,6 @@ packages:
       is-hex-prefixed: 1.0.0
       strip-hex-prefix: 1.0.0
     dev: true
-    bundledDependencies: false
 
   /event-target-shim@5.0.1:
     resolution: {integrity: sha512-i/2XbnSz/uxRCU6+NdVJgKWDTM427+MqYbkQzD321DuCQJUqOuJKIA0IM2+W2xtYHdKOmZ4dR6fExsd4SXL+WQ==}
