@@ -52,7 +52,7 @@
     "@testing-library/react-hooks": "^8.0.1",
     "@types/glob": "^8.1.0",
     "@vitest/coverage-istanbul": "^0.34.6",
-    "@wagmi/cli": "^1.5.2",
+    "@wagmi/cli": "^2.1.16",
     "@wagmi/core": "^1.4.7",
     "abitype": "^0.9.9",
     "glob": "^10.3.10",
