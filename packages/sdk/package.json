@@ -58,7 +58,7 @@
     "typescript": "^5.2.2",
     "viem": "^1.19.7",
     "vitest": "^0.34.2",
-    "zod": "^3.22.4"
+    "zod": "^3.24.2"
   },
   "dependencies": {
     "@eth-optimism/contracts": "0.6.0",
