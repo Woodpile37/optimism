@@ -71,7 +71,7 @@
     "prettier": "^2.8.0",
     "prettier-plugin-solidity": "^1.0.0-beta.13",
     "rimraf": "^5.0.5",
-    "ts-mocha": "^10.0.0",
+    "ts-mocha": "^11.1.0",
     "typescript": "^5.2.2"
   },
   "dependencies": {
