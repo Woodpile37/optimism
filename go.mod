@@ -1,6 +1,6 @@
 module github.com/ethereum-optimism/optimism
 
-go 1.21
+go 1.23.0
 
 require (
 	github.com/BurntSushi/toml v1.3.2
@@ -43,7 +43,7 @@ require (
 	golang.org/x/exp v0.0.0-20231006140011-7918f672742d
 	golang.org/x/sync v0.5.0
 	golang.org/x/term v0.14.0
-	golang.org/x/time v0.4.0
+	golang.org/x/time v0.12.0
 	gorm.io/driver/postgres v1.5.3
 	gorm.io/gorm v1.25.5
 )
